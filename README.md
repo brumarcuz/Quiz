@@ -1,2 +1,2 @@
-# Quiz
+Quiz sobre programação
 
