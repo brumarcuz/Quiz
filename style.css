@@ -55,6 +55,10 @@ input[type="date"]{
     cursor: pointer;
 }
 
+input[type="text"]:focus, input[type="password"]:focus{
+    color: #D6C6A2;
+}
+
 input::placeholder{
     color:#D6C6A2;
 }
