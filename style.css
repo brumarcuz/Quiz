@@ -7,15 +7,15 @@
 }
 
 body{
-    background-color: #002347;
-    color: #EDF7F6;
+    background-color: #60697A;
+    color: #D6C6A2;
     font-family: 'Cabin', sans-serif;
     font-weight: 400;
 }
-/*cor de botões e etc: #FF7704 */
+
 header{
     padding: 2rem;
-    background-color: #FCCB06;
+    background-color: #313C52;
     text-align: center;
 }
 
@@ -33,31 +33,36 @@ section{
 }
 
 h2{
-    color: #F6530F;
+    color: #B58E31;
     font-size: 1.2rem;
 }
 
 input[type="radio"], input[type="checkbox"]{
-    accent-color: #12154C;
+    accent-color: #aaadb26e;
 }
 
-input[type="text"], input[type="password"], input[type="date"]{
+input[type="text"], input[type="password"]{
     width: 100%;
     padding: 0.6rem;
-    border: 2px solid #12154C;
+    border: 2px solid #60697A;
     outline: none;
     border-radius: 5px;
-    background-color: transparent;
+    background-color: #aaadb26e;
+}
+input[type="date"]{
+    color: #D6C6A2;
+    background-color: #aaadb26e;
+    cursor: pointer;
 }
 
 input::placeholder{
-    color:#EDF7F6;
+    color:#D6C6A2;
 }
 
 select{
     cursor: pointer;
-    background-color:#F6530F;
-    color: #EDF7F6;
+    background-color: #aaadb26e;
+    color: #D6C6A2;
     border: none;
     border-radius: 5px;
     outline: none;
@@ -74,14 +79,14 @@ table{
 }
 
 th{
-    background-color: #F6530F;
-    color: #EDF7F6;
+    background-color: #B58E31;
+    color: #D6C6A2;
     padding: 1rem;
 }
 
 td{
-    background-color: #12154C;
-    color: #EDF7F6;
+    background-color: #60697A;
+    color: #D6C6A2;
     padding: 1rem;
     text-align: center;
 }
@@ -92,8 +97,8 @@ details{
 
 summary{
     cursor: pointer;
-    background-color: #F6530F;
-    color: #EDF7F6;
+    background-color: #B58E31;
+    color: #D6C6A2;
     padding: 0.5rem;
     border-radius: 5px;
 }
